@@ -7,22 +7,26 @@ import Link from "next/link";
 
 export default function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
+ 
   return (
     <div>
-      {/* <h1 className="text-white-900 p-7"> To a discript of data to like a key words styling performane but configuration</h1>
-      <button className="bg-blue-700 text-white px-4 py-2 rounded"><a href=""> Login</a>
-      </button> */}
-
-    <div
+   
+    <nav
       className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}>
       <Menu setActive={setActive}>
-        <Link href={"#"}>
+        <Link href={"/"}>
         <MenuItem setActive={setActive} active={active} item="Home">
            test
         </MenuItem>
+
+        <MenuItem setActive={setActive} active={active} item="Our Courses">
+          <div className="flex flex-col space-y-4 text-sm">
+             <HoveredLink href="/courses">All Courses</HoveredLink>
+          </div>
+        </MenuItem>
         </Link>
       </Menu>
-    </div>
+    </nav>
     </div>
   )
 }
