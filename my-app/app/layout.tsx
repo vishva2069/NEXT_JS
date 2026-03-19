@@ -1,6 +1,5 @@
-
+import Navbar from "@/components/Navbar";
 import "./globals.css";
-
 
 export default function RootLayout({
   children,
@@ -13,6 +12,7 @@ export default function RootLayout({
 
       <body className="min-h-full flex flex-col">
         {children}
+        <Navbar/>
         </body>
     </html>
   );
