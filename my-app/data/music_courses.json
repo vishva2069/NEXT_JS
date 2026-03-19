@@ -1,0 +1,47 @@
+{
+    "courses" : [
+        {
+            "id": 1,
+            "title": "guiter Fundamentals",
+            "slug" : "guiter- Fundamentals",
+            "description" : "Learn the basics of playing guitar",
+            "price" : 89.9,
+            "instructor" : "dhyey",
+            "isFeactured" : true,
+            "image" : "/courses/guitar.jpg"
+        },
+
+        {
+            "id": 2,
+            "title": "harmonium Fundamentals",
+            "slug" : "harmonium- Fundamentals",
+            "description" : "Learn the basics of playing harmonium",
+            "price" : 75.56,
+            "instructor" : "vishva",
+            "isFeactured" : false,
+            "image" : "/courses/guitar.jpg"
+        },
+
+        {
+            "id": 3,
+            "title": "tabla Fundamentals",
+            "slug" : "tabla- Fundamentals",
+            "description" : "Learn the basics of playing tabla",
+            "price" : 75.56,
+            "instructor" : "pari",
+            "isFeactured" : false,
+            "image" : "/courses/guitar.jpg"
+        },
+
+        {
+            "id": 4,
+            "title": "Flute Fundamentals",
+            "slug" : "Flute- Fundamentals",
+            "description" : "Learn the basics of playing Flute",
+            "price" : 75.56,
+            "instructor" : "krish",
+            "isFeactured" : false,
+            "image" : "/courses/guitar.jpg"
+        },
+    ]
+}
