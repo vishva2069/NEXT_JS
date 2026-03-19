@@ -42,6 +42,6 @@
             "instructor" : "krish",
             "isFeactured" : false,
             "image" : "/courses/guitar.jpg"
-        },
+        }
     ]
 }
